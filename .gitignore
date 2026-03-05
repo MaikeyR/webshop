@@ -1,0 +1,63 @@
+# WordPress core files
+wp-config.php
+wp-config-sample.php
+.htaccess
+license.txt
+readme.html
+wp-content/upgrade/
+wp-content/backup-*/
+wp-content/backups/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/object-cache.php
+wp-content/plugins/hello.php
+
+# WooCommerce specific
+wp-content/uploads/wc-logs/
+wp-content/uploads/wc-*
+wp-content/uploads/woocommerce_uploads/
+wp-content/uploads/woocommerce_uploads/*
+
+# Ignore all plugins except your custom ones
+!wp-content/plugins/
+wp-content/plugins/*
+!wp-content/plugins/your-custom-plugin/
+
+# Ignore all themes except your custom one
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/your-custom-theme/
+
+# Ignore uploads except for versioned assets (optional)
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Composer & Node
+/vendor/
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
